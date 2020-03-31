@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>LifeSS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes"> 
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Alimentos saudaveis" />
+	<meta name="keywords" content="Alimentos"/>
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="CodeNifty">
+	<link href="https://fonts.googleapis.com/css?family=Amiri:400,400i,700|Merienda:700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>	
+    
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/logo.png">
+       	</div>
+    </header>
+    
+    <nav class="navDown" [data-nav="fixed"]>
+    	<article class="navDown__container container--fluid" >
+    		<p>Atendiamento das <span>9:30AM</span> ate as <span>6:30PM</span></p>
+    	</article>
+    </nav>
+    
+    <section class="banner" >
+    	<h1>LifeSS Mantenha sua saúde<br>Com bom gosto!!</h1>
+    </section>
+
+	<section class="mapa" >
+		<h2 class="title title-underline" >Estamos aqui!!</h2>
+		<article class="mapa__container container--fluid" >
+			<div class="mapa__info">
+			 	<ul>
+			 		<li>Estamo aqui na Bahia</li>
+			 		<li>Na cidade de Salvador - capital</li>
+			 		<li>Bairro do centro</li>
+			 		<li>Rua 100-12 AV-cesar</li>
+			 	</ul>
+			</div>
+			<div class="mapa__frame" >
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497857.7581025154!2d-38.78186847998212!3d-12.87465315746662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716037ca23ca5b3%3A0x1b9fc7912c226698!2sSalvador%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1585171789995!5m2!1spt-BR!2sbr" 
+				frameborder="0" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</article>
+	</section>
+
+	<section class="about" >
+		<h2 class="title title-underline">Entenda porque um bom alimento<br>Proporciona uma boa saúde</h2>
+		<article class="about__container container--fluid">
+			<div>
+		 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.
+		 		osuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.</p>	
+		 	</div>
+		 	<div>
+		 		<img src="img/bg/bg-icon.png" alt="Background com frutas e legumes inlustrativos"> 
+		 	</div> 
+		</article>
+	</section>
+
+	<section class="filtro">
+		<h2 class="title title-underline">Veja os nossos principais alimentos!</h2>
+		<article class="filtro__container container--fluid">
+			<div class="filtro__buttons">
+				<div class="filtro__buttons-box"> 
+					<button  class="btn-able" data-btn="todos" data-js="btn" >Todos</button> 
+					<button	 class="btn-disabled" data-btn="frutas" data-js="btn" >Frutas</button>
+					<button  class="btn-disabled" data-btn="legumes" data-js="btn">Legumes</button>
+					<button  class="btn-disabled" data-btn="verduras" data-js="btn">Verduras</button>
+				</div>	
+			</div>
+			<div class="filtro__content">
+				<div class="filtro__img legumes-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/legume/large/large-3.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/legume/medio/medio-3.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/legume/small/small-3.jpg" >
+			 	 		<img src="img/legume/medio/medio-3.jpg"> 
+			 	 	</picture>
+			 	 	<span class="legumes">Legumes</span>
+			 	</div>
+			 	<div class="filtro__img frutas-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/frutas/large/large-1.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/frutas/medio/medio-1.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/frutas/small/small-1.jpg" >
+			 	 		<img src="img/frutas/medio/medio-1.jpg"> 
+			 	 	</picture>
+			 	 	<span class="frutas">Frutas</span>
+			 	</div>
+			 	<div class="filtro__img legumes-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/legume/large/large-1.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/legume/medio/medio-1.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/legume/small/small-1.jpg" >
+			 	 		<img src="img/legume/medio/medio-1.jpg"> 
+			 	 	</picture>
+			 	 	<span class="legumes">Legumes</span>
+			 	</div>
+				<div class="filtro__img verduras-box">
+			 		<picture>
+			 			<source media="(min-width:1900px)" srcset="img/verdura/large/large-3.jpg" >
+			 			<source media="(min-width:1000px)" srcset="img/verdura/medio/medio-3.jpg" >
+			 			<source media="(min-width:10px)" srcset="img/verdura/small/small-3.jpg" >
+			 			<img src="img/verdura/medio/medio-3.jpg"> 
+			 		</picture>
+			 		<span class="verduras">Verduras</span>
+				</div>
+			 	<div class="filtro__img legumes-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/legume/large/large-2.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/legume/medio/medio-2.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/legume/small/small-2.jpg" >
+			 	 		<img src="img/legume/medio/medio-2.jpg"> 
+			 	 	</picture>
+			 	 	<span class="legumes">Legumes</span>
+			 	</div>
+			 	<div class="filtro__img verduras-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/verdura/large/large-1.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/verdura/medio/medio-1.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/verdura/small/small-1.jpg" >
+			 	 		<img src="img/verdura/medio/medio-1.jpg"> 
+			 	 	</picture>
+			 	 	<span class="verduras">Verduras</span>
+			 	</div>
+				<div class="filtro__img frutas-box">
+			 		<picture>
+			 			<source media="(min-width:1900px)" srcset="img/frutas/large/large-3.jpg" >
+			 			<source media="(min-width:1000px)" srcset="img/frutas/medio/medio-3.jpg" >
+			 			<source media="(min-width:10px)" srcset="img/frutas/small/small-3.jpg" >
+			 			<img src="img/frutas/medio/medio-3.jpg"> 
+			 		</picture>
+			 		<span class="frutas">Frutas</span>
+				</div>
+			 	<div class="filtro__img frutas-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/frutas/large/large-2.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/frutas/medio/medio-2.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/frutas/small/small-2.jpg" >
+			 	 		<img src="img/frutas/medio/medio-2.jpg"> 
+			 	 	</picture>
+			 	 	<span class="frutas">Frutas</span>
+			 	</div>
+			 	<div class="filtro__img frutas-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/frutas/large/large-3.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/frutas/medio/medio-3.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/frutas/small/small-3.jpg" >
+			 	 		<img src="img/frutas/medio/medio-3.jpg"> 
+			 	 	</picture>
+			 	 	<span class="frutas">Frutas</span>
+			 	</div>
+			 	<div class="filtro__img verduras-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/verdura/large/large-2.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/verdura/medio/medio-2.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/verdura/small/small-2.jpg" >
+			 	 		<img src="img/verdura/medio/medio-2.jpg"> 
+			 	 	</picture>
+			 	 	<span class="verduras">Verduras</span>
+			 	</div>
+			 	<div class="filtro__img verduras-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/verdura/large/large-3.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/verdura/medio/medio-3.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/verdura/small/small-3.jpg" >
+			 	 		<img src="img/verdura/medio/medio-3.jpg"> 
+			 	 	</picture>
+			 	 	<span class="verduras">Verduras</span>
+			 	</div>
+			 	<div class="filtro__img legumes-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/legume/large/large-3.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/legume/medio/medio-3.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/legume/small/small-3.jpg" >
+			 	 		<img src="img/legume/medio/medio-3.jpg"> 
+			 	 	</picture>
+			 	 	<span class="legumes">Legumes</span>
+			 	</div>
+			 	<div class="filtro__img legumes-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/legume/large/large-4.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/legume/medio/medio-4.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/legume/small/small-4.jpg" >
+			 	 		<img src="img/legume/medio/medio-4.jpg"> 
+			 	 	</picture>
+			 	 	<span class="legumes">Legumes</span>
+			 	</div>
+			 	<div class="filtro__img frutas-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/frutas/large/large-4.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/frutas/medio/medio-4.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/frutas/small/small-4.jpg" >
+			 	 		<img src="img/frutas/medio/medio-4.jpg"> 
+			 	 	</picture>
+			 	 	<span class="frutas">Frutas</span>
+			 	</div>
+			 	<div class="filtro__img verduras-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/verdura/large/large-4.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/verdura/medio/medio-4.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/verdura/small/small-4.jpg" >
+			 	 		<img src="img/verdura/medio/medio-4.jpg"> 
+			 	 	</picture>
+			 	 	<span class="verduras">Verduras</span>
+			 	</div>
+				<div class="filtro__img frutas-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/frutas/large/large-5.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/frutas/medio/medio-5.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/frutas/small/small-5.jpg" >
+			 	 		<img src="img/frutas/medio/medio-5.jpg"> 
+			 	 	</picture>
+			 	 	<span class="frutas">Frutas</span>
+			 	</div>
+			 	<div class="filtro__img legumes-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/legume/large/large-5.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/legume/medio/medio-5.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/legume/small/small-5.jpg" >
+			 	 		<img src="img/legume/medio/medio-5.jpg"> 
+			 	 	</picture>
+			 	 	<span class="legumes">Legumes</span>
+			 	</div>
+			 	<div class="filtro__img verduras-box">
+			 	 	<picture>
+			 	 		<source media="(min-width:1900px)" srcset="img/verdura/large/large-5.jpg" >
+			 	 		<source media="(min-width:1000px)" srcset="img/verdura/medio/medio-5.jpg" >
+			 	 		<source media="(min-width:10px)" srcset="img/verdura/small/small-5.jpg" >
+			 	 		<img src="img/verdura/medio/medio-5.jpg"> 
+			 	 	</picture>
+			 	 	<span class="verduras">Verduras</span>
+			 	</div>
+			</div>
+		</article>
+	</section>
+
+	<section class="info" >
+		<h2 class="title title-underline">Saiba como nossos platos são<br>Preparados!</h2>
+		<article class="info__container container--fluid">
+			<div class="info__content">
+			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.
+			 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.</p>	
+			</div>
+			<ul></ul>
+		</article>
+	</section>	
+
+	<section class="platos">
+	 	<h2 class="title title-underline">Veja alguns de nossos<br>Platos especiais</h2>
+	 	<article class="platos__container container--fluid">
+	 		<div class="platos__content">
+	 			<div class="platos__img">
+	 				<picture>
+	 					<source media="(min-width:1900px)" srcset="img/platos/large/large-1.jpg" >
+	 					<source media="(min-width:1000px)" srcset="img/platos/medio/medio-1.jpg" >
+	 					<source media="(min-width:10px)" srcset="img/platos/small/small-1.jpg" >
+	 					<img src="img/platos/medio/medio-1.jpg"> 
+	 				</picture>
+	 			</div>
+	 			<div class="platos__description">
+	 				<h3>Plato especial</h3>
+	 			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.</p>
+	 			 </div>
+	 		</div>
+	 		<div class="platos__content">
+	 			<div class="platos__img">
+	 				<picture>
+	 					<source media="(min-width:1900px)" srcset="img/platos/large/large-2.jpg" >
+	 					<source media="(min-width:1000px)" srcset="img/platos/medio/medio-2.jpg" >
+	 					<source media="(min-width:10px)" srcset="img/platos/small/small-2.jpg" >
+	 					<img src="img/platos/medio/medio-2.jpg"> 
+	 				</picture>
+	 			</div>
+	 			<div class="platos__description">
+	 				<h3>Plato especial</h3>
+	 			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.</p>
+	 			 </div>
+	 		</div>
+	 		<div class="platos__content">
+	 			<div class="platos__img">
+	 				<picture>
+	 					<source media="(min-width:1900px)" srcset="img/platos/large/large-3.jpg" >
+	 					<source media="(min-width:1000px)" srcset="img/platos/medio/medio-3.jpg" >
+	 					<source media="(min-width:10px)" srcset="img/platos/small/small-3.jpg" >
+	 					<img src="img/platos/medio/medio-3.jpg"> 
+	 				</picture>
+	 			</div>
+	 			<div class="platos__description">
+	 				<h3>Plato especial</h3>
+	 			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.</p>
+	 			 </div>
+	 		</div>
+	 		<div class="platos__content">
+	 			<div class="platos__img">
+	 				<picture>
+	 					<source media="(min-width:1900px)" srcset="img/platos/large/large-4.jpg" >
+	 					<source media="(min-width:1000px)" srcset="img/platos/medio/medio-4.jpg" >
+	 					<source media="(min-width:10px)" srcset="img/platos/small/small-4.jpg" >
+	 					<img src="img/platos/medio/medio-4.jpg"> 
+	 				</picture>
+	 			</div>
+	 			<div class="platos__description">
+	 				<h3>Plato especial</h3>
+	 			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.</p>
+	 			 </div>
+	 		</div>
+	 		<div class="platos__content">
+	 			<div class="platos__img">
+	 				<picture>
+	 					<source media="(min-width:1900px)" srcset="img/platos/large/large-5.jpg" >
+	 					<source media="(min-width:1000px)" srcset="img/platos/medio/medio-5.jpg" >
+	 					<source media="(min-width:10px)" srcset="img/platos/small/small-5.jpg" >
+	 					<img src="img/platos/medio/medio-5.jpg"> 
+	 				</picture>
+	 			</div>
+	 			<div class="platos__description">
+	 				<h3>Plato especial</h3>
+	 			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.</p>
+	 			 </div>
+	 		</div>
+	 		<div class="platos__content">
+	 			<div class="platos__img">
+	 				<picture>
+	 					<source media="(min-width:1900px)" srcset="img/platos/large/large-1.jpg" >
+	 					<source media="(min-width:1000px)" srcset="img/platos/medio/medio-1.jpg" >
+	 					<source media="(min-width:10px)" srcset="img/platos/small/small-1.jpg" >
+	 					<img src="img/platos/medio/medio-1.jpg"> 
+	 				</picture>
+	 			</div>
+	 			<div class="platos__description">
+	 				<h3>Plato especial</h3>
+	 			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet, tincidunt eget eros. Proin dignissim, risus dapibus consectetur pellentesque, lorem nibh ullamcorper massa, eu lacinia nibh magna efficitur purus.</p>
+	 			 </div>
+	 		</div>
+	 	</article>
+	</section>
+	
+	<section class="pedido" >
+		<h2 class="title title-underline">Peça ja seu plato!</h2>
+		<article class="pedido__container container--fluid" > 
+			<div class="pedido__text" >
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu elit, fermentum quis posuere sit amet</p>
+			</div>
+			<div class="pedido__contact">
+				<h3>Entre em contato</h3>
+				<ul>
+					<li>
+						<a href="tel:7399748316">Telefone
+							<div>
+								<img src="img/icons/phone.svg" >
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://api.whatsapp.com/send?phone=5573999690996&text=Ol%C3%A1!%20desejo%20seus%20servi%C3%A7os%2C%20de%20desenvolvimento%20web.">WhatsApp
+							<div>
+								<img src="img/icons/whatsapp.svg" >
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:dkwebmasterofc@gmail.com?subject=Olá!%20desejo%20seus%20serviços%20de%20desenvolvimento%20web.">E-mail
+							<div>
+								<img src="img/icons/email.svg" >
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</section>
+	
+	<footer class="footer" >
+		<p>LifeSS - Saúde de e bom gosto!</p>
+		<p>2000 - 2020</p>
+		<p>Designer e Website por<a href="https://api.whatsapp.com/send?phone=5573999690996&text=Ol%C3%A1!%20desejo%20seus%20servi%C3%A7os%2C%20de%20desenvolvimento%20web." >CodeNifty</a></p>
+	</footer>
+	
+	<script type="text/javascript" src="scripts/header.js"></script>
+	<script type="text/javascript" src="scripts/filter.js"></script>
+</body>
+</html>
